@@ -18,7 +18,7 @@
       </p>
 
       <div class="hero-buttons">
-        <a href="#projects" class="btn primary">View My Work</a>
+        
         <a href="mailto:muhammadawais.seo7@gmail.com" class="btn secondary">
           Contact Me
         </a>
@@ -42,10 +42,10 @@
       </div>
     </div>
 
-    <div class="hero-image">
-      <div class="image-glow"></div>
-      <img src="profile.jpg" alt="Muhammad Awais - SEO Specialist">
-    </div>
+    <img 
+  src="https://media.licdn.com/dms/image/v2/D4E03AQHuOz7KgY1DIQ/profile-displayphoto-scale_400_400/B4EZ.HpIMCKIAg-/0/1784687135236?e=1788393600&v=beta&t=a_4hVq-yCx3x9klAAzB8UJHEIS6tMo70WV8i5pp4qZU"
+  alt="Muhammad Awais - Local SEO & Off-Page SEO Specialist"
+>
 
   </div>
 </section>
@@ -261,3 +261,925 @@
     }
   }
 </style>
+
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .hero {
+    min-height: 100vh;
+    padding: 80px 7%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #f8fafc 0%, #eef6ff 100%);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+
+  .hero-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+  }
+
+  .hero-content {
+    flex: 1;
+    max-width: 650px;
+  }
+
+  .hero-badge {
+    display: inline-block;
+    padding: 9px 17px;
+    margin-bottom: 22px;
+    border-radius: 30px;
+    background: #e0edff;
+    color: #1769e0;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .hero h1 {
+    margin: 0 0 12px;
+    font-size: clamp(42px, 6vw, 70px);
+    line-height: 1.05;
+    color: #111827;
+    font-weight: 800;
+  }
+
+  .hero h1 span {
+    color: #1769e0;
+  }
+
+  .hero h2 {
+    margin: 0 0 20px;
+    font-size: clamp(22px, 3vw, 32px);
+    color: #374151;
+    font-weight: 600;
+  }
+
+  .hero p {
+    max-width: 610px;
+    margin: 0 0 30px;
+    color: #667085;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.3s ease;
+  }
+
+  .btn.primary {
+    background: #1769e0;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(23, 105, 224, 0.25);
+  }
+
+  .btn.primary:hover {
+    transform: translateY(-3px);
+    background: #0d57c7;
+  }
+
+  .btn.secondary {
+    border: 1.5px solid #1769e0;
+    color: #1769e0;
+    background: #ffffff;
+  }
+
+  .btn.secondary:hover {
+    transform: translateY(-3px);
+    background: #eef6ff;
+  }
+
+  .hero-info {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+
+  .hero-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .hero-info strong {
+    color: #111827;
+    font-size: 19px;
+  }
+
+  .hero-info span {
+    color: #6b7280;
+    font-size: 13px;
+  }
+
+  .hero-image {
+    position: relative;
+    width: 390px;
+    height: 470px;
+    flex-shrink: 0;
+  }
+
+  .hero-image img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    border: 8px solid #ffffff;
+    box-shadow: 0 25px 60px rgba(15, 23, 42, 0.18);
+  }
+
+  .image-glow {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: -55px;
+    top: -45px;
+    border-radius: 50%;
+    background: #cfe4ff;
+    filter: blur(45px);
+    opacity: 0.8;
+  }
+
+  @media (max-width: 850px) {
+    .hero {
+      padding: 60px 6%;
+    }
+
+    .hero-container {
+      flex-direction: column-reverse;
+      text-align: center;
+      gap: 45px;
+    }
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .hero p {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-buttons,
+    .hero-info {
+      justify-content: center;
+    }
+
+    .hero-image {
+      width: min(360px, 90vw);
+      height: 430px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero {
+      padding: 45px 5%;
+    }
+
+    .hero-image {
+      width: 290px;
+      height: 350px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+    }
+
+    .hero-info {
+      gap: 22px;
+    }
+  }
+</style>
+<!-- ABOUT ME SECTION -->
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <div class="about-content">
+      <span class="section-badge">About Me</span>
+
+      <h2>Local SEO & Off-Page SEO Specialist</h2>
+
+    <p>
+  I’m Muhammad Awais, a Local SEO and Off-Page SEO specialist with 1.5 years
+  of practical experience. I have worked on multiple local SEO projects,
+  focusing on Google Business Profile optimization, local citations,
+  link building, Google stacking, cloud indexing, forum backlinks,
+  and other off-page SEO strategies.
+</p>
+
+<p>
+  I have worked on SEO projects for businesses including
+  <strong>Golden State Tint, Repair Champions, Warrior Windows,
+  Inland NW Windows, Parisian Window Treatments, Fonz Construction,
+  Tint Veteran, Bella Casa Shades and Shutters, Blinds Master Co,
+  Heritage Cabling, Rive Autohaus, Colorado Stain Master,
+  Capstone Windows & Doors, JMR Blinds, and Texas Windows.</strong>
+</p>
+
+<p>
+  My work has included Google Business Profile activities, citation building,
+  local SEO support, Google and Cloud stacking, indexing, forum backlinks,
+  and other off-page SEO tasks. I have experience working with businesses
+  across different local-service industries and helping strengthen their
+  online presence and local visibility.
+</p>
+
+      <div class="about-skills">
+        <span>Google Business Profile</span>
+        <span>Local SEO</span>
+        <span>Citation Building</span>
+        <span>Google Stacking</span>
+        <span>Cloud Indexing</span>
+        <span>Link Building</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .about-section {
+    padding: 90px 7%;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+
+  .about-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .about-content {
+    max-width: 850px;
+    margin: auto;
+  }
+
+  .section-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #e0edff;
+    color: #1769e0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .about-content h2 {
+    margin: 0 0 25px;
+    color: #111827;
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.2;
+  }
+
+  .about-content p {
+    margin: 0 0 18px;
+    color: #667085;
+    font-size: 17px;
+    line-height: 1.8;
+  }
+
+  .about-content strong {
+    color: #1769e0;
+  }
+
+  .about-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+  }
+
+  .about-skills span {
+    padding: 10px 15px;
+    border: 1px solid #dbe5f1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  @media (max-width: 600px) {
+    .about-section {
+      padding: 65px 6%;
+    }
+
+    .about-content p {
+      font-size: 16px;
+    }
+  
+</style>
+
+<!-- SKILLS & SERVICES SECTION -->
+<section id="services" class="services-section">
+  <div class="services-container">
+
+    <div class="section-heading">
+      <span class="section-badge">My Skills</span>
+      <h2>SEO Skills & Services</h2>
+      <p>
+        Practical experience in Local SEO, Google Business Profile management,
+        and Off-Page SEO strategies.
+      </p>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- GMB / Local SEO -->
+      <div class="service-card">
+        <div class="service-icon">📍</div>
+        <h3>GMB & Local SEO</h3>
+        <p>
+          Helping businesses build and manage their local search presence
+          through Google Business Profile and local SEO activities.
+        </p>
+
+        <ul>
+          <li>Google Business Profile Verification</li>
+          <li>GMB Posts</li>
+          <li>GMB Image Updates</li>
+          <li>GMB Everywhere</li>
+          <li>Local Directory / Donator Listings</li>
+          <li>GS Locations</li>
+          <li>GMB Audit</li>
+          <li>Local SEO Optimization</li>
+        </ul>
+      </div>
+
+      <!-- Off-Page SEO -->
+      <div class="service-card">
+        <div class="service-icon">🔗</div>
+        <h3>Off-Page SEO</h3>
+        <p>
+          Building an off-page SEO foundation through relevant link-building
+          and supporting SEO properties.
+        </p>
+
+        <ul>
+          <li>Google Stack</li>
+          <li>Cloud Stack</li>
+          <li>Forum Backlinks</li>
+          <li>Guest Posting</li>
+          <li>Link Building</li>
+          <li>Image Backlinks</li>
+          <li>Web 2.0 Properties</li>
+          <li>Citation Building</li>
+        </ul>
+      </div>
+
+      <!-- Citations -->
+      <div class="service-card">
+        <div class="service-icon">📋</div>
+        <h3>Local Citations</h3>
+        <p>
+          Creating and managing business listings to support local search
+          visibility and maintain consistent business information.
+        </p>
+
+        <ul>
+          <li>Local Citation Building</li>
+          <li>Business Directory Listings</li>
+          <li>NAP Consistency</li>
+          <li>Local Profile Creation</li>
+          <li>Citation Research</li>
+          <li>Citation Optimization</li>
+        </ul>
+      </div>
+
+      <!-- Basic SEO -->
+      <div class="service-card">
+        <div class="service-icon">⚙️</div>
+        <h3>Basic SEO</h3>
+        <p>
+          Supporting SEO activities including basic on-page optimization
+          and search performance monitoring.
+        </p>
+
+        <ul>
+          <li>Basic On-Page SEO</li>
+          <li>Keyword Optimization</li>
+          <li>Google Search Console</li>
+          <li>Basic Technical SEO</li>
+          <li>SEO Auditing Basics</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .services-section {
+    padding: 90px 7%;
+    background: #f8fafc;
+    font-family: Arial, sans-serif;
+  }
+
+  .services-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .section-heading {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 50px;
+  }
+
+  .section-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #e0edff;
+    color: #1769e0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .section-heading h2 {
+    margin: 0 0 15px;
+    color: #111827;
+    font-size: clamp(30px, 4vw, 44px);
+  }
+
+  .section-heading p {
+    margin: 0;
+    color: #667085;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .service-card {
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.05);
+    transition: 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.10);
+  }
+
+  .service-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: #eaf3ff;
+    font-size: 25px;
+  }
+
+  .service-card h3 {
+    margin: 0 0 12px;
+    color: #111827;
+    font-size: 23px;
+  }
+
+  .service-card p {
+    margin: 0 0 20px;
+    color: #667085;
+    line-height: 1.7;
+    font-size: 15px;
+  }
+
+  .service-card ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  .service-card li {
+    margin-bottom: 9px;
+    color: #374151;
+    font-size: 14px;
+  }
+
+  @media (max-width: 750px) {
+    .services-section {
+      padding: 65px 6%;
+    }
+
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+
+<!-- EXPERIENCE & TRAINING SECTION -->
+<section id="experience" class="experience-section">
+  <div class="experience-container">
+
+    <div class="section-heading">
+      <span class="section-badge">My Journey</span>
+      <h2>Experience & Training</h2>
+      <p>
+        My professional experience and training in SEO, Local SEO,
+        Off-Page SEO, and WordPress.
+      </p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Reck Vision -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="experience-card">
+          <div class="experience-top">
+            <div>
+              <span class="experience-type">Full-Time</span>
+              <h3>Search Engine Optimization Executive</h3>
+              <h4>Reck Vision</h4>
+            </div>
+
+            <div class="experience-date">
+              <strong>2025 – 2026</strong>
+              <span>Haripur, KPK</span>
+            </div>
+          </div>
+
+          <p>
+            Worked on comprehensive Off-Page SEO campaigns across
+            multiple niches, focusing on link acquisition and improving
+            website visibility.
+          </p>
+
+          <ul>
+            <li>Built and managed high-quality backlinks across diverse niches.</li>
+            <li>Worked with Google Cloud indexing and SEO asset indexing workflows.</li>
+            <li>Managed forum posting, Q&A discussions, guest posts, and Web 2.0 properties.</li>
+            <li>Analyzed DA, PA, DR and traffic metrics to evaluate potential domains.</li>
+            <li>Used Ahrefs, MozBar, and Similarweb for backlink and domain research.</li>
+          </ul>
+
+          <div class="experience-tags">
+            <span>Off-Page SEO</span>
+            <span>Link Building</span>
+            <span>Google Cloud</span>
+            <span>Forum Backlinks</span>
+            <span>Guest Posts</span>
+            <span>Ahrefs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SKY Technologics -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="experience-card">
+          <div class="experience-top">
+            <div>
+              <span class="experience-type">SEO Experience</span>
+              <h3>Search Engine Optimization Executive</h3>
+              <h4>SKY Technologics</h4>
+            </div>
+
+            <div class="experience-date">
+              <strong></strong>
+              <span>3 Months</span>
+            </div>
+          </div>
+
+          <p>
+            Assisted with link building, local SEO, citation creation,
+            on-page optimization, and search performance monitoring.
+          </p>
+
+          <ul>
+            <li>Assisted with link building outreach and directory submissions.</li>
+            <li>Created and managed local SEO citations.</li>
+            <li>Optimized meta titles and meta descriptions.</li>
+            <li>Worked with local schema markup.</li>
+            <li>Monitored website performance through Google Search Console.</li>
+            <li>Worked on backlink indexing issues.</li>
+          </ul>
+
+          <div class="experience-tags">
+            <span>Local SEO</span>
+            <span>Citations</span>
+            <span>Link Building</span>
+            <span>On-Page SEO</span>
+            <span>Schema</span>
+            <span>Search Console</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RankingGrow -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="experience-card">
+          <div class="experience-top">
+            <div>
+              <span class="experience-type">Freelance</span>
+              <h3>Search Engine Optimization Executive</h3>
+              <h4>RankingGrow</h4>
+            </div>
+
+            <div class="experience-date">
+              <strong></strong>
+              <span>2 Months</span>
+            </div>
+          </div>
+
+          <p>
+            Gained practical SEO experience through freelance work,
+            focusing on link building and off-page SEO activities.
+          </p>
+
+          <div class="experience-tags">
+            <span>SEO</span>
+            <span>Link Building</span>
+            <span>Off-Page SEO</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- WordPress Training -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+
+        <div class="experience-card training-card">
+          <div class="experience-top">
+            <div>
+              <span class="experience-type">Training</span>
+              <h3>WordPress Course</h3>
+              <h4>Virsa Institute Haripur</h4>
+            </div>
+
+            <div class="experience-date">
+              <strong></strong>
+              <span>1 Month</span>
+            </div>
+          </div>
+
+          <p>
+            Completed practical WordPress training covering website
+            creation, management, and basic website customization.
+          </p>
+
+          <div class="experience-tags">
+            <span>WordPress</span>
+            <span>Website Creation</span>
+            <span>Website Management</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .experience-section {
+    padding: 100px 7%;
+    background: #f8fafc;
+    font-family: Arial, sans-serif;
+  }
+
+  .experience-container {
+    max-width: 1050px;
+    margin: auto;
+  }
+
+  .section-heading {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 65px;
+  }
+
+  .section-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    background: #e0edff;
+    color: #1769e0;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .section-heading h2 {
+    margin: 0 0 15px;
+    color: #111827;
+    font-size: clamp(30px, 4vw, 44px);
+  }
+
+  .section-heading p {
+    margin: 0;
+    color: #667085;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .timeline {
+    position: relative;
+    padding-left: 35px;
+  }
+
+  .timeline::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background: #cfe0f7;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -35px;
+    top: 30px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #1769e0;
+    border: 4px solid #f8fafc;
+    box-shadow: 0 0 0 2px #1769e0;
+    z-index: 2;
+  }
+
+  .experience-card {
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+    transition: 0.3s ease;
+  }
+
+  .experience-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.10);
+  }
+
+  .experience-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 18px;
+  }
+
+  .experience-type {
+    display: inline-block;
+    margin-bottom: 9px;
+    padding: 6px 11px;
+    border-radius: 20px;
+    background: #eaf3ff;
+    color: #1769e0;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .experience-card h3 {
+    margin: 0 0 7px;
+    color: #111827;
+    font-size: 22px;
+  }
+
+  .experience-card h4 {
+    margin: 0;
+    color: #1769e0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .experience-date {
+    min-width: 120px;
+    text-align: right;
+  }
+
+  .experience-date strong {
+    display: block;
+    color: #111827;
+    font-size: 14px;
+  }
+
+  .experience-date span {
+    display: block;
+    margin-top: 5px;
+    color: #667085;
+    font-size: 13px;
+  }
+
+  .experience-card p {
+    margin: 0 0 18px;
+    color: #667085;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+
+  .experience-card ul {
+    margin: 0 0 22px;
+    padding-left: 20px;
+  }
+
+  .experience-card li {
+    margin-bottom: 9px;
+    color: #374151;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .experience-tags span {
+    padding: 7px 11px;
+    border-radius: 7px;
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .training-card {
+    border-left: 4px solid #1769e0;
+  }
+
+  @media (max-width: 700px) {
+    .experience-section {
+      padding: 70px 5%;
+    }
+
+    .timeline {
+      padding-left: 25px;
+    }
+
+    .timeline-dot {
+      left: -25px;
+      width: 15px;
+      height: 15px;
+    }
+
+    .experience-top {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .experience-date {
+      text-align: left;
+    }
+
+    .experience-card {
+      padding: 24px;
+    }
+  }
+</style>
+```
+
+```
